@@ -50,8 +50,6 @@ def index():
     """
     return HTMLResponse(content=html_content, status_code=200)
 
-app = FastAPI()
-
 @app.post("/favorite_food")
 async def favorite_food(food):
     return {
