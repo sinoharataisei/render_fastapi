@@ -49,3 +49,11 @@ def index():
     </html>
     """
     return HTMLResponse(content=html_content, status_code=200)
+
+app = FastAPI()
+
+@app.post("/favorite_food")
+async def favorite_food(food):
+    return {
+        "response": f"サーバです。あなたの好きな食べ物は {food} ですね！とてもおいしそうです。"
+    }
