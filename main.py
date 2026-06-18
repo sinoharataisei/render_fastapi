@@ -41,10 +41,10 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>Some HTML in here</title>
+            <title>Netpro Assignment</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1>Nice To Meet You!</h1>
         </body>
     </html>
     """
